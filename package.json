@@ -1,0 +1,44 @@
+{
+  "author": {
+    "name": "blink.it Developer Team feat. Thorsten Lorenz"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "fill-keys": "^1.0.2",
+    "module-not-found-error": "^1.0.0",
+    "resolve": "~1.1.7"
+  },
+  "deprecated": false,
+  "description": "Fork of Proxyquire that works with symlinked imports and project root relative paths as understood by meteor's Npm.require(...), Proxies nodejs require in order to allow overriding dependencies during testing.",
+  "devDependencies": {
+    "mocha": "~3.1",
+    "native-hello-world": "^1.0.0",
+    "should": "~3.3",
+    "sinon": "~1.9",
+    "fn": "~0.2.0"
+  },
+  "homepage": "https://github.com/blinkit-darmstadt/proxysquire#readme",
+  "keywords": [
+    "require",
+    "dependency",
+    "injection",
+    "di",
+    "inject",
+    "swap",
+    "test",
+    "mock",
+    "stub",
+    "coffeescript"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "proxysquire",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blinkit-darmstadt/proxysquire.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "version": "1.8.1"
+}
